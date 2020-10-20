@@ -1,2 +1,5 @@
-# ASPNetEventGridSample
-Sample ASP.Net Application implementing send and receive events through EventGrid
+# ASP.Net Event Grid Sample Application
+
+[Azure EventGrid](https://docs.microsoft.com/en-us/azure/event-grid/overview) is a messaging pipeline that allows you to easily build event based applications that allow you to wire your application components to both publish and subscribe to events. EventGrid also has a number of built in Azure connectors out of the box, including Azure numerous Azure service publishers, as well as Functions, Service Bus, Logic Apps and general web hooks. If you have a more traditional ASP.NET Core application that you want to both publish and subscribe to EventGrid events and wanted to see examples I couldn't find any so I built this sample from the ground up.
+
+You can read more about how I did this [here](https://www.glennprince.com/blog/setting-up-an-eventgrid-handler/).
